@@ -7,11 +7,16 @@
 }
 
 body {
+    min-height: 100vh;
     font-family: 'League Spartan', sans-serif;
     font-size: 15px;
     background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
     background-position: 0px 0px, right 0 bottom 0em;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
